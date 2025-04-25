@@ -44,9 +44,10 @@ body {
 
 .navbar-menu li a:hover {
     color: #e8c4a1;
+    text-decoration: underline;
 }
 
-.img-logo{
+.img-logo {
     width: 3rem;
     height: 3rem;
 }
@@ -85,7 +86,7 @@ body {
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
 }
 
-section {
+.bodega-section {
     max-width: 800px;
     margin: 3rem auto;
     padding: 2rem;
@@ -121,57 +122,188 @@ b {
     color: #5c2c23;
 }
 
+.banner-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Pagina precios.html */
+/* Pagina precios.html */
+/* Pagina precios.html */
+/* Pagina precios.html */
+/* Pagina precios.html */
+
+.bodega {
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.bodega h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    width: 70%;
+    max-width: 1240px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.productos-horizontales {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.producto-horizontal {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+
+.producto-horizontal img {
+    width: 120px;
+    height: 160px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.detalle {
+    flex-grow: 1;
+}
+
+.detalle h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.detalle p {
+    margin: 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.precio {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #7a3e2f;
+    white-space: nowrap;
+}
+
+/* Pagina vinedos.html */
+/* Pagina vinedos.html */
+/* Pagina vinedos.html */
+/* Pagina vinedos.html */
+/* Pagina vinedos.html */
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenes-vinedos {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+/* Estilos del Footer */
+/* Estilos del Footer */
+/* Estilos del Footer */
+/* Estilos del Footer */
+/* Estilos del Footer */
+
 .footer {
     background-color: #6b3e38;
     color: #ffffff;
     padding: 40px 20px;
     font-family: sans-serif;
-  }
-  
-  .footer-container {
+}
+
+.footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
     gap: 20px;
-  }
-  
-  .footer-section {
+}
+
+.footer-section {
     flex: 1 1 250px;
-  }
-  
-  .footer-section h2 {
+}
+
+.footer-section h2 {
     font-size: 18px;
     margin-bottom: 10px;
-  }
-  
-  .footer-section p, 
-  .footer-section ul {
+}
+
+.footer-section p,
+.footer-section ul {
     font-size: 14px;
     line-height: 1.6;
-  }
-  
-  .footer-section ul {
+}
+
+.footer-section ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .footer-section ul li a {
+}
+
+.footer-section ul li a {
     color: #ffffff;
     text-decoration: none;
-  }
-  
-  .footer-section ul li a:hover {
+}
+
+.footer-section ul li a:hover {
     text-decoration: underline;
-  }
-  
-  .footer-bottom {
+}
+
+.footer-bottom {
     text-align: center;
     font-size: 12px;
     color: #dddddd;
     margin-top: 30px;
-  }
+}
+
+.footer a svg {
+    transition: transform 0.3s ease, fill 0.3s ease;
+    fill: #ffffff;
+}
+
+.footer a:hover svg {
+    transform: scale(1.15);
+    fill: #e8c4a1;
+}
 
 @media (max-width: 600px) {
     body {
@@ -192,7 +324,8 @@ b {
         font-size: 1.4rem;
     }
 
-    p, ul li {
+    p,
+    ul li {
         font-size: 1rem;
     }
 }
