@@ -305,30 +305,58 @@ b {
     fill: #e8c4a1;
 }
 
-@media (max-width: 600px) {
-    body {
-        padding: 1rem;
-    }
+/* contacto.html */
+/* contacto.html */
+/* contacto.html */
 
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    div {
-        padding: 1rem;
-    }
-
-    h1 {
-        font-size: 1.4rem;
-    }
-
-    p,
-    ul li {
-        font-size: 1rem;
-    }
-}
+.contacto {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .contacto h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-contacto .campo-contacto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+  }
+  
+  .form-contacto label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-contacto input,
+  .form-contacto textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .btn-enviar {
+    padding: 0.9rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #7a3e2f;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn-enviar:hover {
+    background-color: #5f2f23;
+  }
 
 @media (max-width: 768px) {
     .navbar-container {
@@ -349,5 +377,94 @@ b {
     .navbar-menu li a {
         display: block;
         padding: 0.5rem 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    div {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    p,
+    ul li {
+        font-size: 1rem;
+    }
+
+    /* precios.html */
+    /* precios.html */
+    /* precios.html */
+
+    .bodega {
+        padding: 1rem;
+    }
+
+    .bodega h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .productos {
+        width: 100%;
+        padding: 1rem;
+        margin: 2rem auto;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .productos-horizontales {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .producto-horizontal {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .producto-horizontal img {
+        width: 200px;
+        height: 250px;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .detalle {
+        width: 100%;
+    }
+
+    .detalle h2 {
+        font-size: 1rem;
+    }
+
+    .detalle p {
+        font-size: 0.9rem;
+    }
+
+    .precio {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    /* vinedos.html */
+    /* vinedos.html */
+    /* vinedos.html */
+
+    .galeria {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .imagenes-vinedos {
+        width: 90%;
+        height: auto;
     }
 }
