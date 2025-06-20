@@ -67,6 +67,7 @@ window.addEventListener("DOMContentLoaded", function () {
                 var valor = parseFloat(valorTexto);
                 total += valor;
                 totalElement.textContent = total.toFixed(2);
+                alert("Se añadio un item al carrito!")
             });
         });
     }
