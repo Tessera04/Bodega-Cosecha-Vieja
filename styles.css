@@ -358,6 +358,34 @@ b {
     background-color: #5f2f23;
   }
 
+  .carrito-total {
+    width: 70%;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #5f2f23;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+
+  .carrito-total h2 {
+    color: white;
+    margin-bottom: 0.5rem;
+    }
+
+    .carrito-total p {
+        font-size: 1rem;
+        color: #ccc;
+        margin-bottom: 1rem;
+    }
+
+    .total-contenedor {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #ccc;
+    }
+
+
 @media (max-width: 768px) {
     .navbar-container {
         flex-direction: column;
